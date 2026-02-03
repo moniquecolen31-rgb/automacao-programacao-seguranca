@@ -20,7 +20,6 @@ body {
 /* Seção Capa */
 #capa {
     position: relative;
-    text-align: center;
     color: #fff;
 }
 
@@ -28,7 +27,7 @@ body {
     width: 100%;
     height: 100vh;
     object-fit: cover;
-    opacity: 0.9; /* Deixa a imagem em destaque */
+    opacity: 0.9; /* Cria um efeito de transparência sutil */
 }
 
 .capa-conteudo {
@@ -49,7 +48,7 @@ body {
 }
 
 .capa-conteudo .btn {
-    margin-top: 20px;
+    margin: 20px 10px 0;
     padding: 10px 25px;
     background-color: #0078d4;
     color: white;
