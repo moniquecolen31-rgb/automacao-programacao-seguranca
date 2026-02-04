@@ -100,14 +100,6 @@ body {
     }
 }
 
-.hero h2 {
-    will-change: transform, opacity;
-}
-
-.hero h2.animated {
-    will-change: auto;
-}
-
 /* Botões */
 .btn {
     display: inline-block;
@@ -375,14 +367,6 @@ body {
 /* Performance optimizations */
 img {
     content-visibility: auto;
-}
-
-.projeto-img {
-    will-change: transform;
-}
-
-.projeto-img:not(:hover) {
-    will-change: auto;
 }
 
 .form-contato button {
